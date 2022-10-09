@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block page_content %}
+
+    <main role="main">
+
+    <hr>
+    
+    <!-- Main jumbotron  -->
+    <div class="jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">Welcome! <br> I am a junior software developer.</h1>
+            <p class="lead">This is a portfolio showing my projects. Most of them I have created during my undergraduate  at the University of Freiburg.
+                Some of the programes were created after I graduated. I appriciate your time to browse my projects. If you want to contact me,
+            please use this <em>email address</em>.
+        </p>
+        </div>
+    </div>
+
+    <div class="container">
+        {% block projects %}
+        {% endblock %}
+    </div>
+
+    <hr>
+
+    </div> <!-- /container -->
+
+</main>
+
+{% endblock %}
