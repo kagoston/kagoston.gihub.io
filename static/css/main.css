@@ -1,0 +1,10 @@
+.main_color{
+    background-color: #ececec;
+    color: #292929;
+}
+
+#readmore {
+    overflow: hidden;
+    height: 4.8em;
+    line-height: 1.2em;
+  }
